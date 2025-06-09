@@ -19,7 +19,7 @@ export default function HeaderIsland() {
           <div className="flex items-center space-x-3">
             <div className="w-8 h-8 rounded-full overflow-hidden border border-white/30 bg-gray-200">
               <Image
-                src="/images/profile.jpg"
+                src="/images/avatar-thumbnail.png"
                 alt="Profile"
                 width={32}
                 height={32}

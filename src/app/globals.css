@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --accent: #3b82f6; /* Blue-500 as primary accent */
+  --secondary: #8b5cf6; /* Purple-500 as secondary color */
   --font-geist-sans: 'Inter', sans-serif;
   --font-geist-mono: 'Fira Mono', monospace;
 }
@@ -10,6 +12,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-secondary: var(--secondary);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -18,6 +22,8 @@
   :root {
     --background: #0B0E1A;
     --foreground: #ededed;
+    --accent: #60a5fa; /* Blue-400 for better contrast in dark mode */
+    --secondary: #a78bfa; /* Purple-400 for better contrast in dark mode */
   }
 }
 
