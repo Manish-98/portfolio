@@ -12,17 +12,17 @@ const ProfileImage = () => {
         
         {/* Minimal frame - just a thin border */}
         <div className="border border-gray-200 dark:border-gray-700 rounded-md overflow-hidden">
-          <div className="w-80 h-80">
+          <div className="w-64 h-64 sm:w-80 sm:h-80">
             <Image
               src="/images/profile.jpg"
               alt="Manish Lath"
               width={480}
               height={480}
-              className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+              className="w-full h-full object-cover rounded-md transform hover:scale-105 transition-transform duration-500"
             />
           </div>
         </div>
-        
+
       </div>
     </div>
   );
@@ -36,7 +36,7 @@ const TextContent = () => {
     'Java Developer',
     'History Enthusiast'
   ];
-  
+
   // Fallback text for SSR and SEO
   const fallbackText = 'Software Developer';
 
@@ -49,12 +49,12 @@ const TextContent = () => {
             &lt; Manish Lath /&gt;
           </span>
         </h1>
-        
+
         <div className="text-2xl font-light min-h-[2rem] text-right">
-          A <AnimatedText 
-            texts={animatedTexts} 
+          A <AnimatedText
+            texts={animatedTexts}
             fallbackText={fallbackText}
-            speed={120} 
+            speed={120}
           />
         </div>
       </div>
@@ -71,7 +71,7 @@ const Home = () => {
   return (
     <div className="bg-background text-foreground flex items-center">
       <div className="container mx-auto px-6 py-12">
-        <div className="flex items-center justify-center gap-16">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16">
           <div className="flex-shrink-0">
             <ProfileImage />
           </div>

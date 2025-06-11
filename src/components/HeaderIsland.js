@@ -13,7 +13,7 @@ export default function HeaderIsland() {
 
   return (
     <div className="fixed top-4 left-1/2 transform -translate-x-1/2 hidden md:block">
-      <header className="h-12 bg-white/10 backdrop-blur-md border border-white/20 rounded-full shadow-lg hover:shadow-xl max-w-12 expand [--expand-width:70vw]">
+      <header className="h-12 bg-white/10 backdrop-blur-md border border-white/20 rounded-full shadow-lg hover:shadow-xl max-w-12 expand [--expand-width:90vw]">
         <div className="flex items-center justify-between h-full">
           {/* Left side - Profile and Name */}
           <div className="flex items-center space-x-3 pl-2 pr-8">

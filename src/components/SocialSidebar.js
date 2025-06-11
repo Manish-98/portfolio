@@ -7,22 +7,22 @@ import Link from 'next/link';
 const socials = [
   {
     name: 'GitHub',
-    href: 'https://github.com/yourname',
+    href: 'https://github.com/Manish-98',
     icon: githubIcon,
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/yourname',
+    href: 'https://www.linkedin.com/in/manishkumarlath/',
     icon: linkedinIcon,
   },
   {
     name: 'Medium',
-    href: 'https://medium.com/@yourname',
+    href: 'https://medium.com/@manishlath',
     icon: mediumIcon,
   },
   {
     name: 'Website',
-    href: 'https://yourwebsite.com',
+    href: 'https://portfolio-lovat-pi-80.vercel.app/',
     icon: websiteIcon,
   }
 ];
